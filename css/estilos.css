@@ -1,0 +1,196 @@
+body{
+	margin:0px;
+	font-family: 'Nunito', sans-serif;
+}
+
+.principal{
+	background-image: url(../img/bandera-mx.jpg);
+	width:1280px; 
+	margin: auto;
+	padding:1px;
+}
+
+header{
+	text-align: center;
+}
+
+h1{
+    font-size: 60px;
+    margin-right: 40px;
+    background: url(../img/mexico-logo.png) no-repeat 860px;
+}
+
+h2{
+	font-size: 40px;
+    text-align: center;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-top:10px;
+	margin-bottom:30px;
+}
+
+nav a{
+	text-decoration: none;
+	background-color: #006847;
+	color: white;
+	padding: 15px;
+	margin: 20px;
+	border-radius: 20px;
+	border: solid 1px #DB4D5D;
+	font-size:20px;
+}
+
+nav a:hover{
+	background-color: #CE1126;
+}
+
+img{
+	border-radius: 10px;	
+}
+
+.centrado{
+	margin-left:128px;
+	margin-right:128px;
+}
+
+p{
+	border:solid 1px #DB4D5D;
+	/* margin:40px; */
+	background-color:white;
+	padding:30px;
+	border-radius: 10px;
+	font-size:20px;
+}
+
+#historia{
+	margin-top: -30px;
+}
+
+.txt-corto{
+	width:388px;
+	padding:30px;
+	display:inline-block;
+}
+
+.img-corto{
+	display:inline-block;
+	vertical-align:top;
+	margin-top:20px;
+	margin-left:10px;
+}
+
+.img-vid{
+	display:inline-block;
+	vertical-align:top;
+	margin-top:40px;
+}
+
+.galeria{
+	width: 1024px;
+	margin: auto;	
+    padding-bottom: 30px;	
+ }
+ 
+ .galeria h2{
+	margin-bottom: -5px;
+ }
+ 
+ .galeria a:hover{
+	background: rgba(0, 0, 0, 0.5);
+	font-size: 20px;
+	color: white;
+	transition: all 0.4s ease-in-out;
+	font-weight: bold;   
+ }
+ 
+ .galeria li {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color: transparent;
+	font-size: 10px; 
+ }
+ 
+ .galeria a{
+	display: inline-block;
+	color: transparent;
+	text-decoration: none;
+	width:320px;
+	height:180px;
+ }
+
+ #muerto1{
+     background-image: url(../img/dia_muertos.jpg);
+ }
+  
+ #muerto2{
+     background-image: url(../img/dia_muertos_2.jpg);
+ }
+ 
+ #anochecer{
+     background-image: url(../img/ciudad.jpg);
+ }
+ 
+ #chapultepec{
+     background-image: url(../img/chapultepec.jpg);
+ }
+ 
+ #angelav{
+     background-image: url(../img/cdmx_angel.jpg);
+ }
+ 
+ #nb{
+     background-image: url(../img/nochebuena-1.jpg);
+ }
+ 
+#angel_portada img{
+	border-radius: inherit;
+}
+
+footer{
+    background-color: #006847;
+    margin: auto;
+    color: white;
+}
+
+.foot{
+    width: 1024px;
+    margin: auto;
+	padding-top: 1px;
+}
+
+.footlist{
+    display: inline-block;
+    width: 320px;
+    height: 150px;
+	text-align: center;
+}
+
+.footlist a{
+    text-decoration: none;
+    color: white;
+}
+
+.footlist a:hover{
+    color: #d57d3d;
+}
+
+.footlist ul{
+    margin: auto;
+    list-style: none;
+}
+
+.centhist2 img{
+	float: right;
+    margin-top: -390px;
+}
+
+.gracias {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+   height: 100px;    
+}

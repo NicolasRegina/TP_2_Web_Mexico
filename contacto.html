@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Ciudad de México - Contacto</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="">
+		<link href="css/estilos.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+
+	</head>
+
+	<body>
+		<div class="principal">
+			
+			<header>
+				<h1>Ciudad de México</h1>
+				
+				<nav>
+					<ul>
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="tours.html">Tours</a></li>
+						<li><a href="eventos.html">Eventos</a></li>
+						<li><a href="#">Contacto</a></li>
+					</ul>
+				</nav>
+			</header>
+				
+			<main class="centrado">
+			
+			
+				<article class="reservas">
+					<h2>Planea tu viaje!</h2>
+					<iframe width="1024" height="315" src="https://www.youtube.com/embed/bKXH6llCi5A" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<p style="text-align:center">
+					<strong> Dejanos tus datos y nos contactaremos a la brevedad!.</strong>     
+					</p>
+				</article>						  
+
+				<form action="gracias.html" method="post" enctype="multipart/form-data">
+
+					<div class="formulario">
+						
+						<div>
+							<label>Nombre:</label>
+							<input type="text" name="nombre" placeholder="Ingrese su nombre" required />
+						</div>
+
+						<div>
+							<label>Email:</label>
+							<input type="email" name="email" placeholder="nombre@mail.com" required />
+						</div>
+
+						<div>
+							<label>Fecha:</label>
+							<input type="date" name="fecha" required />
+						</div>
+						
+						<fieldset>
+                            <legend>Estas planeando un viaje a México?</legend>
+							<div>
+								<input type="radio" id="Si" name="drone" value="Si" checked>
+							  <label for="Si">Si</label>
+							</div>
+
+							<div>
+							  <input type="radio" id="No" name="drone" value="No">
+							  <label for="No">No</label>
+							</div>
+						
+							<label for="personas">Cantidad de personas:</label>
+							<select id="personas" name="personas">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+							</select>                        
+
+							<div>
+								<label>Alergias o dietas especiales:</label> <br>
+								<input type="checkbox" value="first_checkbox" name="lactosa" id="cbox1" />Lactosa <br>
+								<input type="checkbox" value="second_checkbox" name="gluten" id="cbox2"/>Gluten <br>
+								<input type="checkbox" name="chocolate" id="cbox3"/>Chocolate <br>
+								<input type="checkbox" name="veganx" id="cbox4"/>Veganx <br>
+								<input type="checkbox" name="vegetarianx" id="cbox5"/>Vegetarianx <br>
+								<input type="checkbox" name="ninguna" id="cbox6" />Ninguna <br>
+								<input type="checkbox" id="cbox7"/>Otra: <input type="text">
+							</div>
+
+							
+							<div>
+								<p>
+									Si tiene un cupón de descuento, adjúntelo (imagen o PDF):
+								</p>
+								<input type="file" accept=".pdf, .jpg, .png">
+							</div>
+
+							<div>
+								<label for="comentario">Comentarios adicionales</label>
+								<textarea name="comentario" id="comentario" cols="30" rows="5"></textarea>
+							</div>
+
+							<div>
+								<button type="submit">Enviar</button>
+							</div>
+						</fieldset>
+					</div>
+
+				</form>
+			
+
+			</main>
+			
+			<footer>
+				<div class="foot">
+					<h2>Ciudad de México</h2>
+					
+					<div class="footlist">
+						
+						<ul>
+							<li>Avenida Presidente Masaryk 172 Bosques de Chapultepec 11580 Ciudad de México</li>
+							<li><a href="mailto:contacto@sectur.gob.mx">contacto@sectur.gob.mx</a></li>
+						</ul>
+
+					</div>
+
+
+					<div class="footlist">
+						<ul>
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="tours.html">Tours</a></li>
+							<li><a href="eventos.html">Eventos</a></li>
+							<li><a href="#">Contacto</a></li>
+						</ul>
+					</div>
+
+					<div class="footlist">
+						<ul>
+							<li>Nicolás Regina</li>
+							<li>Maquetado y Desarrollo Web - Mabel García</li>
+							<li>DWN1C - 2022</li>
+						</ul>
+					</div>
+					
+				</div>
+			</footer>			
+		</div>
+	</body>
+</html>
